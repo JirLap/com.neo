@@ -3051,11 +3051,11 @@
             "nl": "Bewegingsdetectie LED indicatie",
             "de": "Bewegungsmelder LED"
           },
-          "value": false,
+          "value": true,
           "hint": {
-            "en": "Enable LED/PIR to blink red when motion detected. (#10, default: disabled = unchecked)",
-            "nl": "Inschakelen van het rood knipperen van de LED/PIR bij bewegingsdetectie. (#10, standaard: uitgeschakeld = unchecked)",
-            "de": "Aktiviert die LED/PIR, um rot zu blinken, wenn eine Bewegung erkannt wird. (#10, default: deaktiviert = nicht ausgewählt)"
+            "en": "Enable LED/PIR to blink red when motion detected. (default: Enabled)",
+            "nl": "Inschakelen van het rood knipperen van de LED/PIR bij bewegingsdetectie. (standaard: uitgeschakeld)",
+            "de": "Aktiviert die LED/PIR, um rot zu blinken, wenn eine Bewegung erkannt wird. (default: aktiviert)"
           }
         },
         {
@@ -3074,9 +3074,9 @@
           },
           "value": true,
           "hint": {
-            "en": "Enable the motion detection (PIR) function. This parameter does not effect the luminance reporting. (#4, default: enabled = checked)",
-            "nl": "Inschakelen van de bewegingsdetectie (PIR) functie. Deze parameter heeft geen invloed op de lichtsterke rapportage. (#4, standaard: ingeschakeld = checked)",
-            "de": "Aktiviert die Funktion Bewegungsmelder (PIR). Dieser Parameter hat keinen Einfluss auf die Heilligkeitsmeldung. (#4, Standard: aktiviert = ausgewählt)"
+            "en": "Enable the motion detection (PIR) function. This parameter does not effect the luminance reporting. (default: enabled)",
+            "nl": "Inschakelen van de bewegingsdetectie (PIR) functie. Deze parameter heeft geen invloed op de lichtsterke rapportage. (standaard: ingeschakeld)",
+            "de": "Aktiviert die Funktion Bewegungsmelder (PIR). Dieser Parameter hat keinen Einfluss auf die Heilligkeitsmeldung. (Standard: aktiviert)"
           }
         },
         {
@@ -3095,9 +3095,9 @@
           },
           "value": "2",
           "hint": {
-            "en": "Adapt the sensitivity of the motion detection. (#1, default: Normal sensitivity)",
-            "nl": "Hiermee kunt u de gevoeligheid van de bewegingsdetectie aanpassen. (#1, standaard: Normale gevoeligheid)",
-            "de": "Passt die Empfindlichkeit des Bewegungsmelders an. (#1, Standard: Normale Empfindlichkeit)"
+            "en": "Adapt the sensitivity of the motion detection. (default: Normal sensitivity)",
+            "nl": "Hiermee kunt u de gevoeligheid van de bewegingsdetectie aanpassen. (standaard: Normale gevoeligheid)",
+            "de": "Passt die Empfindlichkeit des Bewegungsmelders an. (Standard: Normale Empfindlichkeit)"
           },
           "values": [
             {
@@ -3154,9 +3154,9 @@
           },
           "value": 30,
           "hint": {
-            "en": "Time duration that stays ON after motion detection. This Parameter value must be larger than the 're-trigger interval'. (#2 default: 30 [s], range: 5 - 3600 [s])",
-            "nl": "Instelbare tijd dat aanblijft na bewegingsdetectie. De waarde van deze parameter moet groter zijn dan het 'herhalings interval'. \nParameter: 2 standaard: 30 [s], bereik: 5 - 3600 [s])",
-            "de": "Zeitdauer, die der Bewegungserkennung eingeschaltet bleibt. Dieser Parameterwert muss größer sein als das die Bewegungsmelder Blindzeit. (#2 Standard: 30 [s], Bereich: 5 - 3600[s])"
+            "en": "Time duration that stays ON after motion detection. This Parameter value must be larger than the 're-trigger interval'. (default: 30 [s], range: 5 - 3600 [s])",
+            "nl": "Instelbare tijd dat aanblijft na bewegingsdetectie. De waarde van deze parameter moet groter zijn dan het 'herhalings interval'. (standaard: 30 [s], bereik: 5 - 3600 [s])",
+            "de": "Zeitdauer, die der Bewegungserkennung eingeschaltet bleibt. Dieser Parameterwert muss größer sein als das die Bewegungsmelder Blindzeit. (Standard: 30 [s], Bereich: 5 - 3600[s])"
           }
         },
         {
@@ -3182,6 +3182,31 @@
             "en": "Period after motion detection in which the sensor is insensitive for new motion detection. This value must be less than the 'Motion detection ON time'. (#6 default: 8 [s], range: 0 - 8 [s])",
             "nl": "Periode na detecteren van beweging waarin de sensor ongevoelig is voor nieuwe bewegingsdetectie. De waarde moet lager zijn dan de 'Bewegingsdetectie AAN tijd'. (#6 standaard: 8 [s], bereik: 0 - 8 [s])",
             "de": "Zeitraum nach der Bewegungserkennung, in dem der Sensor für eine neue Bewegungserkennung unempfindlich ist. Dieser Wert muss kleiner sein als die Einschaltzeit der 'Bewegungserkennung'. (#6 Standard: 8 [s], Bereich: 0 - 8[s])"
+          }
+        },
+        {
+          "id": "sensor_interval",
+          "zwave": {
+            "index": 17,
+            "size": 2,
+            "signed": false
+          },
+          "type": "number",
+          "_size": 2,
+          "attr": {
+            "min": 0,
+            "max": 30000
+          },
+          "label": {
+            "en": "Sensor report interval (s)",
+            "nl": "Sensor rapportage-interval(s)",
+            "de": "Sensorberichtsintervall (s)"
+          },
+          "value": 180,
+          "hint": {
+            "en": "Time interval for light, temperature and humidity sensor measuring. The higher the value, the battery life is longer. 0 is reporting off(default: 180 [s], range: 0 - 30000 [s])",
+            "nl": "Tijdsinterval voor het meten van licht, temperatuur en vochtigheidssensor. Hoe hoger de waarde, hoe langer de batterij meegaat. 0 is uit(standaard: 180 [s], bereik: 0 - 30000 [s])",
+            "de": "Zeitintervall für die Messung des Licht-, Temperatur- und Feuchtigkeitssensors. Je höher der Wert, desto länger ist die Akkulaufzeit. 0 ist aus(Standard: 180 [s], Bereich: 0 - 30000[s])"
           }
         }
       ]
