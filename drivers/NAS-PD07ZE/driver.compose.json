@@ -7,7 +7,7 @@
   "zwave": {
     "manufacturerId": 600,
     "productTypeId": 16, 
-    "productId": 1816,
+    "productId": [ 1816 , 1824 ],
 	"includeSecure": false,
     "learnmode": {
       "image": "/drivers/NAS-PD07ZE/assets/icon.svg",
