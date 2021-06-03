@@ -1,12 +1,15 @@
-{	"2.1.11": {
+{	"2.1.12": {
+		"en": "• Minimum V7 Homey Firmware. • Added more PD07Z ids. • Removed force unsecure pair"
+				},
+	"2.1.11": {
 		"en": "• Added PIR v4 PD07Z"
-				},	
+				},
 	"2.1.10": {
 		"en": "• Added extra ID's for the Wallplug V2"
-				},	
+				},
 	"2.1.9": {
 		"en": "• Updated Mesh Driver after fix 2 prevent false alarm triggers on PIR"
-				},	
+				},
 	"2.1.8": {
 		"en": "• Changed reports for Pir V2 since users reported no alarm notifications"
 				},
@@ -94,11 +97,10 @@
 	"2.0.2": {
 		"en": "• Fixed Siren Trigger card that did not fire correct. • Updated more device icons for better experience."
 				},
-	"2.0.1": { 
+	"2.0.1": {
 		"en": "• Added support for the KeyFob/ Emergency Remote Control. • Added support for the SOS Remote button. • Updated device icons for better appstore experience. • Updated some device svg icons for better experience on Homey."
 				},
 	"2.0.0": {
 		"en": "• Moved App to zwave-mesh driver and SDKv2. • Added all other know country/regio id's known in de z-wave alliance database in the app. • Added support for the NAS-SC01ZE Touch Wall Switch Single. • Added empty driver for PD02 so it shows in appstore as device icon/tile."
 				}
 }
-				

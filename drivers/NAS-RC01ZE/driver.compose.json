@@ -49,7 +49,6 @@
     "manufacturerId": 600,
     "productTypeId": 3,
     "productId": 4234,
-    "includeSecure": false,
     "wakeUpInterval": 0,
     "learnmode": {
       "image": "/drivers/NAS-RC01ZE/assets/learnmode.svg",

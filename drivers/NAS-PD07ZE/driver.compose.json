@@ -6,9 +6,8 @@
   },
   "zwave": {
     "manufacturerId": 600,
-    "productTypeId": 16, 
+    "productTypeId": 16,
     "productId": [ 1816 , 1824 ],
-	"includeSecure": false,
     "learnmode": {
       "image": "/drivers/NAS-PD07ZE/assets/icon.svg",
       "instruction": {
@@ -22,7 +21,7 @@
       "instruction": {
         "en": "Press the code button inside your NEO PIR three times",
         "nl": "Druk driemaal op de code knop binnen in de NEO PIR",
-        "de": "Drücke die Code-Taste in deinem NEO PIR dreimal"		
+        "de": "Drücke die Code-Taste in deinem NEO PIR dreimal"
 		}
     },
     "associationGroups": [
@@ -47,7 +46,7 @@
   },
   "class": "sensor",
   "energy": {
-    "batteries": [ "CR123A" ] 
+    "batteries": [ "CR123A" ]
   },
   "capabilities": [
     "alarm_motion",
@@ -103,7 +102,7 @@
         "nl": "Inschakelen van de bewegingsdetectie (PIR) functie. Deze parameter heeft geen invloed op de lichtsterke rapportage. (standaard: ingeschakeld)",
         "de": "Aktiviert die Funktion Bewegungsmelder (PIR). Dieser Parameter hat keinen Einfluss auf die Heilligkeitsmeldung. (Standard: aktiviert)"
       }
-    },	  
+    },
 	  {
       "id": "motion_sensor_sensitivity",
       "zwave": {
@@ -145,7 +144,7 @@
           "label": {
             "en": "Lower Sensitivity",
             "nl": "Lagere Gevoeligheid",
-            "de": "Niedere Empfindlichkeit" 
+            "de": "Niedere Empfindlichkeit"
           }
         },
         {
@@ -153,11 +152,11 @@
           "label": {
             "en": "Lowest Sensitivity",
             "nl": "Laagste Gevoeligheid",
-            "de": "Niedrigste Empfindlichkeit" 
+            "de": "Niedrigste Empfindlichkeit"
           }
         }
       ]
-    },	  
+    },
 	{
       "id": "motion_off_delay",
       "zwave": {
@@ -182,7 +181,7 @@
         "nl": "Instelbare tijd dat aanblijft na bewegingsdetectie. De waarde van deze parameter moet groter zijn dan het 'herhalings interval'. (standaard: 30 [s], bereik: 5 - 3600 [s])",
         "de": "Zeitdauer, die der Bewegungserkennung eingeschaltet bleibt. Dieser Parameterwert muss größer sein als das die Bewegungsmelder Blindzeit. (Standard: 30 [s], Bereich: 5 - 3600[s])"
       }
-    },	 
+    },
 	{
       "id": "re-trigger_interval",
       "zwave": {
@@ -233,6 +232,6 @@
         "de": "Zeitintervall für die Messung des Licht-, Temperatur- und Feuchtigkeitssensors. Je höher der Wert, desto länger ist die Akkulaufzeit. 0 ist aus(Standard: 180 [s], Bereich: 0 - 30000[s])"
       }
     }
-	
+
   ]
 }

@@ -16,7 +16,6 @@
     "manufacturerId": 600,
     "productTypeId": 16,
     "productId": 1814,
-    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/NAS-RE01ZE/assets/icon.svg",
       "instruction": {

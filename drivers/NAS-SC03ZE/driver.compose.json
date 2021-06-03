@@ -9,7 +9,6 @@
     "productId": [
       4139
     ],
-    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/NAS-SC03ZE/assets/learnmode.svg",
       "instruction": {

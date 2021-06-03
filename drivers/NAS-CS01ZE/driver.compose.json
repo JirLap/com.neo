@@ -8,7 +8,6 @@
     "manufacturerId": 600,
     "productTypeId": 512,
     "productId": 4140,
-    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/NAS-CS01ZE/assets/learnmode.svg",
       "instruction": {
