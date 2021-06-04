@@ -11,17 +11,17 @@
     "learnmode": {
       "image": "/drivers/NAS-PD07ZE/assets/icon.svg",
       "instruction": {
-        "en": "Press the code button inside your NEO PIR three times",
-        "nl": "Druk driemaal op de code knop binnen in de NEO PIR",
-        "de": "Drücke die Code-Taste in deinem NEO PIR dreimal"
+        "en": "Press the code button inside your NEO PIR for more then 5 seconds until it starts to blink",
+        "nl": "Druk op de code knop binnen in de NEO PIR voor minimaal 5 seconden totdat deze gaat knipperen",
+        "de": "Drücken Sie die Codetaste im Inneren des NEO PIR mindestens 5 Sekunden lang, bis sie blinkt"
 		}
     },
     "unlearnmode": {
       "image": "/drivers/NAS-PD07ZE/assets/icon.svg",
       "instruction": {
-        "en": "Press the code button inside your NEO PIR three times",
-        "nl": "Druk driemaal op de code knop binnen in de NEO PIR",
-        "de": "Drücke die Code-Taste in deinem NEO PIR dreimal"
+        "en": "Press the code button inside your NEO PIR for more then 5 seconds until it starts to blink",
+        "nl": "Druk op de code knop binnen in de NEO PIR voor minimaal 5 seconden totdat deze gaat knipperen",
+        "de": "Drücken Sie die Codetaste im Inneren des NEO PIR mindestens 5 Sekunden lang, bis sie blinkt"
 		}
     },
     "associationGroups": [
