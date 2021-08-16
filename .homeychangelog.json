@@ -1,5 +1,8 @@
-{	"2.1.13": {
-		"en": "• Updated pairing discription of the PIR V4"
+{	"2.1.14": {
+		"en": "• Added extra ID's Flood Sensor"
+				},
+	"2.1.13": {
+		"en": "• Updated pairing description of the PIR V4"
 				},
 	"2.1.12": {
 		"en": "• Minimum V7 Homey Firmware. • Added more PD07Z ids. • Removed force unsecure pair"
