@@ -6,7 +6,7 @@
     "en": "NEO Coolcam",
     "nl": "NEO Coolcam"
   },
-  "version": "2.1.13",
+  "version": "2.1.14",
   "compatibility": ">=7.0.0",
   "brandColor": "#ff66cc",
   "description": {
@@ -200,7 +200,7 @@
         ]
       },
       {
-        "id": "alarm_emergency",
+        "id": "alarm_sos",
         "title": {
           "en": "Emergency Alarm",
           "nl": "SOS Alarm",
@@ -3402,7 +3402,7 @@
           {
             "id": "sensor",
             "capabilities": [
-              "alarm_emergency",
+              "alarm_sos",
               "alarm_battery"
             ],
             "options": {
@@ -4485,12 +4485,16 @@
       },
       "zwave": {
         "manufacturerId": 600,
-        "productTypeId": 3,
+        "productTypeId": [
+          3,
+          16
+        ],
         "productId": [
           4229,
           133,
           8325,
-          24709
+          24709,
+          1797
         ],
         "productDocumentation": "http://products.z-wavealliance.org/ProductManual/File?folder=&filename=Manuals/1788/Water Leakage Detector User Manual V2.doc",
         "pid": 1788,
@@ -4728,6 +4732,22 @@
       "title": {
         "en": "Siren",
         "nl": "Sirene"
+      },
+      "units": {
+        "en": "Status"
+      },
+      "desc": {
+        "en": "Alarm",
+        "nl": "Alarm"
+      },
+      "getable": true,
+      "setable": false
+    },
+    "alarm_sos": {
+      "type": "boolean",
+      "title": {
+        "en": "Emergency",
+        "nl": "Noodgeval"
       },
       "units": {
         "en": "Status"

@@ -9,7 +9,7 @@ class KeyFob_RS01Z extends ZwaveDevice {
     //this.printNode();
     this.registerCapability('measure_battery', 'BATTERY');
 
-    this.registerCapability('alarm_emergency', 'NOTIFICATION', {
+    this.registerCapability('alarm_sos', 'NOTIFICATION', {
       get: 'NOTIFICATION_GET',
       getOpts: {
         getOnOnline: true,
@@ -33,7 +33,7 @@ class KeyFob_RS01Z extends ZwaveDevice {
 
 
     // Register Flow card trigger
-    const EmergencyFlowTrigger = new Homey.FlowCardTriggerDevice('alarm_emergency');
+    const EmergencyFlowTrigger = new Homey.FlowCardTriggerDevice('alarm_sos');
     EmergencyFlowTrigger.register();
 
     // Check if Flow card is registered in app manifest

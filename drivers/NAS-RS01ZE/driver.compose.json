@@ -29,7 +29,7 @@
       {
         "id": "sensor",
         "capabilities": [
-          "alarm_emergency",
+          "alarm_sos",
           "alarm_battery"
         ],
         "options": {

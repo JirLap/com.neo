@@ -1,7 +1,7 @@
 {
   "triggers": [
     {
-      "id": "alarm_emergency",
+      "id": "alarm_sos",
       "title": {
         "en": "Emergency Alarm",
         "nl": "SOS Alarm",
