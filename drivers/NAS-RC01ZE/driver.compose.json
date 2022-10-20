@@ -45,6 +45,7 @@
       "CR3032"
     ]
   },
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 600,
     "productTypeId": 3,

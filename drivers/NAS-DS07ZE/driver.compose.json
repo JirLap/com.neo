@@ -3,6 +3,7 @@
     "en": "Door Sensor V2",
     "nl": "Deur Sensor V2"
   },
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 600,
     "productTypeId": 16,

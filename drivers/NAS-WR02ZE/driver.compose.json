@@ -3,6 +3,7 @@
     "en": "Power Wallplug V2",
     "nl": "Spanning Muurplug V2"
   },
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": [
       600,
@@ -10,6 +11,7 @@
     ],
     "productTypeId": [
       3,
+	  16,
       40,
       512,
       768
@@ -17,6 +19,7 @@
     "productId": [
       8,
       512,
+	  1817,
       4135
     ],
     "productDocumentation": "http://products.z-wavealliance.org/ProductManual/File?folder=&filename=Manuals/1783/Smart-Plug User Guide V2.doc",

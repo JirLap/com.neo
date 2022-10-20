@@ -4,6 +4,7 @@
     "en": "PIR V4",
     "nl": "PIR V4"
   },
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 600,
     "productTypeId": 16,

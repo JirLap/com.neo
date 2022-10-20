@@ -3,12 +3,14 @@
     "en": "Door Sensor",
     "nl": "Deur Sensor"
   },
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 600,
-    "productTypeId": 3,
+    "productTypeId": [3, 512],
     "productId": [
-      4226,
-      24706,
+      4130,
+	  4226,
+	  24706,
       8322,
       130
     ],

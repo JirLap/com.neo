@@ -3,6 +3,7 @@
     "en": "PIR V1",
     "nl": "PIR V1"
   },
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 600,
     "productTypeId": 3,

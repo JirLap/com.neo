@@ -12,10 +12,11 @@
     "small": "/drivers/NAS-RE01ZE/assets/images/small.jpg"
   },
   "class": "other",
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 600,
     "productTypeId": 16,
-    "productId": 1814,
+    "productId": [1814, 1826],
     "learnmode": {
       "image": "/drivers/NAS-RE01ZE/assets/icon.svg",
       "instruction": {

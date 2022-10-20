@@ -3,6 +3,7 @@
     "en": "Touch Switch Dual",
     "nl": "Aanraakschakelaar Dubbel"
   },
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 600,
     "productTypeId": 3,

@@ -3,6 +3,7 @@
     "en": "Touch Switch Single",
     "nl": "Aanraakschakelaar Enkel"
   },
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 600,
     "productTypeId": 3,

@@ -5,7 +5,7 @@
     "en": "NEO Coolcam",
     "nl": "NEO Coolcam"
   },
-  "version": "2.1.14",
+  "version": "2.1.15",
   "compatibility": ">=7.0.0",
   "brandColor": "#ff66cc",
   "description": {
@@ -76,6 +76,7 @@
   "bugs": {
     "url": "https://github.com/mruiter/com.neo/issues"
   },
+  "support": "mailto:mruiter@tuxweb.nl",
   "athomForumDiscussionId": 4346,
   "contributing": {
     "donate": {

@@ -4,6 +4,7 @@
     "nl": "Water Sensor",
     "de": "Wasser Sensor"
   },
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 600,
     "productTypeId": [3, 16],

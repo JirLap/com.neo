@@ -3,6 +3,7 @@
     "en": "Power Wallplug V1",
     "nl": "Spanning Muurplug V1"
   },
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 600,
     "productTypeId": [

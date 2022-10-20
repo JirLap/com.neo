@@ -3,6 +3,7 @@
     "en": "Touch Switch Triple",
     "nl": "Aanraakschakelaar Triple"
   },
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 600,
     "productTypeId": 512,

@@ -4,6 +4,7 @@
     "nl": "Scherm controller",
     "de": "Vorhang controller"
   },
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 600,
     "productTypeId": 512,
